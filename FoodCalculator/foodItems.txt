@@ -1,0 +1,46 @@
+Adding items:
+
+Valid test:
++Add name string, add calories digit input, check if added //pass
+-Add name string, add calories using arrows, check if added //pass
++Add 10 valid items from csv file, check if 10 items are added /pass
+
+
++Add name string, calories empty //fail, item shuldnt be addeed
++Name empty, calories nuber //fail item shuldnt be addeed
++Add name string, negative callories value //fail item shuldnt be addeed
++Add name string, calories non digit //fail item shuldnt be addeed
+
+
+Total callories counter:
+
++Add 10 valid items from csv file.
++Read all added calories values and sum.
++Compare to file calories sum. //pass
+
+Check clear all button:
+
++Add 10 valid items from csv file.
++Check if 10 items are added.
++Use clear all, check if list became empty //pass
+
+
+Check Edit button:
+
+Add 1 item
++Does update is visible? //pass
++Does delete is visible? //pass
+
+Add 10 items from csv file
+Update all names to "carrot"
+Read updated list, all names should me "carrot" //pass
+
+Update all callories to "10"
+Check if sum is "100" //pass
+
+
+Delete all items one by one
+Check if list is empty //pass
+
+
+
